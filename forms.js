@@ -154,6 +154,7 @@ function submitFloorPlans() {
 }
 
 function onClickWhatsapp () {
+  const pageURL = window.location.href;
   window.dataLayer.push({
     event: "Whatsapp Button Click",
     products: [
@@ -164,6 +165,7 @@ function onClickWhatsapp () {
   });
 }
 function onClickCall () {
+  const pageURL = window.location.href;
   window.dataLayer.push({
     event : 'Call Button Click',
     products: [
